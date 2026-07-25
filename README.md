@@ -3,6 +3,8 @@
 An AI-assisted Customer Complaint Management module for pharmaceutical API & FDF
 manufacturers, built for the AIVOA Round 1 Full Stack Developer Assessment.
 
+Pharmaceutical companies use a Quality Management System (QMS) to ensure consistent product quality, compliance with GMP standards, and patient safety across both Active Pharmaceutical Ingredients (API) and Finished Dosage Form (FDF) manufacturing. Within this system, the Customer Complaint module plays a vital role in capturing and investigating product-related issues reported after distribution. Its purpose is to identify potential risks, ensure regulatory compliance, perform root cause analysis, and implement corrective and preventive actions. Ultimately, it helps protect patients, maintain trust, and drive continuous improvement in product quality.
+
 A QA user pastes a raw customer email or uploads a complaint PDF into the **AIVOA
 Copilot** chat panel. A **LangGraph** agent (backed by **Groq**-hosted LLMs) extracts
 structured complaint data, runs an initial risk assessment, checks for missing
