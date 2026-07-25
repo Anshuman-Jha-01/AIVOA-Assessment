@@ -1,0 +1,18 @@
+From: orders@apollopharmacy.example.com
+To: qa-complaints@aivoa-pharma.example.com
+Subject: Complaint - Discolored Capsules in Sealed Bottle
+
+Hello QA Team,
+
+Apollo Pharmacy is reporting an issue with a recent shipment. We opened a
+sealed bottle of Amoxicillin Capsules 500 mg (Batch/Lot AMX240602,
+Manufacturing date March 2026, Expiry February 2028) and found 12 capsules
+inside that are visibly discolored compared to the rest of the bottle.
+
+The outer packaging showed no signs of tampering or damage. We are
+requesting an investigation and replacement of the affected stock.
+
+Please advise on next steps.
+
+Regards,
+Apollo Pharmacy Purchasing Team

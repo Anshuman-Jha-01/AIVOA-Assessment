@@ -1,0 +1,21 @@
+From: quality@abcformulations.example.com
+To: qa-complaints@aivoa-pharma.example.com
+Subject: URGENT - Foreign Matter Found in Metformin API Drum
+
+Dear QA Team,
+
+During incoming quality inspection at our facility, ABC Formulations Ltd.
+identified multiple dark foreign particles inside one sealed HDPE drum of
+Metformin Hydrochloride API (IP/BP grade).
+
+Batch/Lot Number: MFH260712A
+Affected Quantity: 25 kg (1 HDPE Drum)
+Manufacturing Date: 25 June 2026
+Expiry Date: Not provided on drum label
+
+The drum had no visible external damage. Material has been quarantined
+pending your response. Given this is an API input material, we consider
+this a high-priority issue.
+
+Regards,
+ABC Formulations Ltd. - Quality Department

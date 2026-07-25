@@ -1,0 +1,17 @@
+version: "3.9"
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: aivoa_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: aivoa_user
+      POSTGRES_PASSWORD: aivoa_pass
+      POSTGRES_DB: aivoa_complaints
+    ports:
+      - "5432:5432"
+    volumes:
+      - aivoa_pg_data:/var/lib/postgresql/data
+
+volumes:
+  aivoa_pg_data:

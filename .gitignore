@@ -1,0 +1,20 @@
+# --- Node.js ---
+node_modules/
+npm-debug.log*
+yarn.lock
+dist/
+build/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+# --- Shared ---
+.env
+.env.*
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
