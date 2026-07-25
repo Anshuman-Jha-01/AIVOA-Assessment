@@ -236,8 +236,8 @@ Visit http://localhost:5173. Vite proxies `/api/*` to `http://localhost:8000`
 - **JSON-mode everywhere.** Every Groq call that needs structured data uses
   `response_format: json_object`, with a defensive parser (`chat_completion_json`)
   that strips markdown fences if the model adds them anyway.
-- **Model fallback.** `groq_client.py` retries on `llama-3.3-70b-versatile` if the
-  primary `gemma2-9b-it` call fails, so a transient error or rate limit on the
+- **Model fallback.** `groq_client.py` retries on `gemma2-9b-it` if the
+  primary `llama-3.3-70b-versatile` call fails, so a transient error or rate limit on the
   small model doesn't break the whole pipeline.
 - **Correction path is cheap by design.** Re-running full extraction on every chat
   message would be slow and could overwrite already-correct fields. The intent
